@@ -1,0 +1,26 @@
+/* Selector de etiqueta para input de ancho 200px */
+input {
+    width: 200px;
+}
+
+/* Margen de 20px para el cuerpo del HTML y tipo de fuente Verdana */
+body {
+    margin: 20px;
+    font-family: Verdana, sans-serif;
+}
+
+/* Selector de input cuyo atributo name sea email */
+input[name="email"] {
+    background-color: #eeeeee;
+}
+
+/* Fuente Tahoma para todos los párrafos y labels */
+p, label {
+    font-family: Tahoma, sans-serif;
+}
+
+/* Ajustes para textarea */
+textarea {
+    width: 200px;
+    height: 60px;
+}
